@@ -24,21 +24,14 @@ How it works:
 => Next it goes through this output.txt fomratted file and exports all of the data to an Excel spreadsheet, choose a file name to save this .xls file as.
 
 How to USE:
+
 1) Log into the ts1 terminal, ld 20
-
 2) Run command: prt > dnb > ENTER > ENTER - Let run for a few minutes until complete
-
 3) Copy this output into a text file, ex: dumpFile.txt
-
-    >> Delete text above the first DN, usually this is the login/initial text
-    
+	>> Delete text above the first DN, usually this is the login/initial text
 4) Place this script and dumpFile.txt into same directory
-
 5) Open terminal to that directory
-
 6) To Run: python LUDNExcel.py
-
 7) Enter filename with .txt included: dumpFile.txt
-
 8) Enter Loop number you want (only one) - ex: 004, 088, 092, 028, 044, 072
-    9) Enter the save name of the excel file, .xls included, ex: LUDN-Export-DATE.xls
+9) Enter the save name of the excel file, .xls included, ex: LUDN-Export-DATE.xls
