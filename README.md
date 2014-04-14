@@ -9,6 +9,12 @@ Currently there is no way to organize all of the phone programming data from a p
 
 Any questions or comments, feel free to contact me at: jesse.vazquez@trincoll.edu for details or how to get it working.
 
+There are 2 files:
+
+=> LUDNExcel.py - This file will get all of the data for all TN loops and export to Excel
+
+=> LUDN-Custom.py - Allows you to specify a certain loop to export if you don't want them all
+
 How it works: 
 
 => Copy and paste the terminal output to a .txt file (in my case, dumpFile.txt)
